@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<GridPane xmlns="http://javafx.com/javafx"
+            xmlns:fx="http://javafx.com/fxml"
+            fx:controller="sample.deleteDialogController" fx:id="deleteDialog">
+    <Label GridPane.columnIndex="0" GridPane.rowIndex="0" text="Select the contact you would like to delete:- "/>
+    <ComboBox GridPane.columnIndex="0" GridPane.rowIndex="1" fx:id="contactListToDelete"/>
+</GridPane>

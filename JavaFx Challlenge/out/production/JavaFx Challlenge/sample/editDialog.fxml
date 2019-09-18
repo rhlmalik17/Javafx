@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<GridPane xmlns="http://javafx.com/javafx"
+          xmlns:fx="http://javafx.com/fxml"
+          fx:controller="sample.EditController" fx:id="deleteDialog" hgap="10" vgap="15" prefWidth="500" prefHeight="250">
+    <Label GridPane.columnIndex="0" GridPane.rowIndex="0" text="Select the contact you would like to edit:- "/>
+    <ComboBox GridPane.columnIndex="0" GridPane.rowIndex="1" fx:id="contactListToEdit"/>
+    <Label text="First Name : " GridPane.columnIndex="0" GridPane.rowIndex="2"/>
+    <TextField GridPane.columnIndex="1" GridPane.rowIndex="2" fx:id="firstName" ></TextField>
+    <Label text="Last Name : " GridPane.columnIndex="0" GridPane.rowIndex="3"/>
+    <TextField GridPane.columnIndex="1" GridPane.rowIndex="3" fx:id="lastName"></TextField>
+    <Label text="Phone Number : " GridPane.columnIndex="0" GridPane.rowIndex="4"/>
+    <TextField GridPane.columnIndex="1" GridPane.rowIndex="4" fx:id="phoneNumber"></TextField>
+    <Label text="Notes : " GridPane.columnIndex="0" GridPane.rowIndex="5"/>
+    <TextField GridPane.columnIndex="1" GridPane.rowIndex="5" fx:id="notes"></TextField>
+</GridPane>

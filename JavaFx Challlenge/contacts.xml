@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<contacts>
+<contact>
+	<first_name>Rahul</first_name>
+	<last_name>Malik</last_name>
+	<phone_number>9888903593</phone_number>
+	<notes>Buy a lamborghini</notes>
+</contact>
+<contact>
+	<first_name>Sudhanshu</first_name>
+	<last_name>Uniyal</last_name>
+	<phone_number>9888124124</phone_number>
+	<notes>Kuch bhi bharde</notes>
+</contact>
+</contacts>

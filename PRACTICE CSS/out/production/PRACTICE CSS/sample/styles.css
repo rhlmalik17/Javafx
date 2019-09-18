@@ -1,0 +1,23 @@
+#rect,#rect2
+{
+    -fx-background-insets: 0;
+    -fx-background-color: white;
+    -fx-background-radius: 90px;
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.09), 10, 0, 0, 8);
+    -fx-padding: 20;
+    -fx-text-fill: black;
+    -fx-font-size: 15px;
+    -fx-font-family: "Manjari Bold";
+
+
+}
+#rect:hover
+{
+    /*-fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.5), 10, 0, 0, 8);*/
+
+}
+
+/*#pane*/
+/*{*/
+/*    -fx-background-color: grey;*/
+/*}*/
